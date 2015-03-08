@@ -1,6 +1,6 @@
 ## Read in the data
 library(dplyr)
-dfepower <- read.table("Exdata_data/household_power_consumption.txt", sep = ";",
+dfepower <- read.table("household_power_consumption.txt", sep = ";",
                        colClasses = c(rep("character", 2), 
                                       rep("numeric", 7)), 
                        header = TRUE, 
